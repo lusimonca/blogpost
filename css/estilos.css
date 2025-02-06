@@ -2,10 +2,28 @@ body{
     color: #000000c9;
     text-align: left;
     font-family: "Poppins";
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
     padding: 0;
 
+}
+
+#cabezera
+{
+    background: blueviolet;
+    box-shadow: 0px 2px 20px 0px rgba(24, 3, 84, 0.5);
+    color: aquamarine;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+
+}
+
+#cabezera #tagline
+{
+    padding: 0 0 0 1em;
+    font-weight: normal;
+    font-size: 0.8em;
 }
 #container
 {
@@ -17,5 +35,5 @@ body{
 }
 #container h1
 {
-    font-size: 20px;
+    font-size: 30px;
 }
